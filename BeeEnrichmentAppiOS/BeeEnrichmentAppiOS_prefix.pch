@@ -1,0 +1,213 @@
+//
+//  BeeEnrichmentAppiOS_prefix.pch
+//  BeeEnrichmentAppiOS
+//
+//  Created by dll on 15/12/18.
+//  Copyright © 2015年 didai. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kSectionHeaderHeight 10
+#define kSectionFooterHeight 0.000001
+#define kTableViewRowHeight 44
+#define FontOfAttributed (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)? (@"PingFangSC-Light"):(@"HelveticaNeue-Light"))
+#define FontOfAttributedRegular (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)? (@"PingFangSC-Regular"):(@"HelveticaNeue-Regular"))
+#ifndef BeeEnrichmentAppiOS_prefix_pch
+#define BeeEnrichmentAppiOS_prefix_pch
+
+#import "JPLog.h"
+#import "PureLayout.h"
+#import "PureLayout+JPCategory.h"
+#import "JPScreen.h"
+#import "JPConfig.h"
+#import "JPColor.h"
+#import "JPView.h"
+#import "JPViewController.h"
+#import "JPJson.h"
+#import "JPSecurity.h"
+#import "JPAlert.h"
+#import "JPDevice.h"
+#import "JPScreen.h"
+#import "JPPath.h"
+#import "UIView+CornerRadius.h"
+#import "NSDate+JPDate.h"
+#import "UILabel+Size.h"
+#import "Core+Theme.h"
+#import "Core+Http.h"
+#import "Core+Access.h"
+#import "Core+Controller.h"
+#import "Core+Push.h"
+#import "Core+CheckData.h"
+#import "Core+Other.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <UIActionSheet_Blocks/UIActionSheet+Blocks.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MeiQiaSDK/MQManager.h>
+#import "ShareKindsView.h"
+#import "UITableView+JPTableView.h"
+#import "UITableViewCell+JPTableView.h"
+#import "WebViewController.h"
+#import "NoDataPointView.h"
+#import "LTimerButton.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "UMMobClick/MobClick.h"
+#import "UIColor+Addition.h"//16进制color
+#import "UITabBar+badge.h"
+#import "UIButton+badge.h"
+#import "UIView+badge.h"
+#import "WXApi.h"
+#import "WeiboSDK.h"
+#import "UMSocialSmsHandler.h"
+#import "UMSocialQQHandler.h"
+#import <UMSocialCore/UMSocialCore.h>
+#import "WMRefreshHeader.h"
+#import "WMRefreshFooter.h"
+#import "UIView+WMExtension.h"
+#import "MJExtension.h"
+#import "LoginNavigationController.h"
+#import "UserModel.h"
+#import "SettingModel.h"
+#import "ProductsModel.h"
+#import "MessagesModel.h"
+#import "TableFooterView.h"
+
+// 分享的头像
+#define UMS_THUMB_IMAGE  @"https://mmbiz.qlogo.cn/mmbiz_png/ib4ga2y3cmOUP6Pvu7uiaGBuIrCm3f2SVK61jDsw4yuFic7QNd44d8HicKs3uPiapkEugKKueLDJbQthRdmm3LXtEjA/0?wx_fmt=png"
+#define APP_ID                  @"1266527870"
+// 友盟key
+#define UMAPPKEY @"5991492a677baa7ea6000868"
+// 商户号: 正式:0003310F0477321 测试:0002900F0096235
+#define MchntCd @"0003310F0477321"
+// 商户密钥: 正式: ibmguqsu0epfqyey32gvjt22thzkvn2f 测试:5old71wihg2tqjug9kkpxnhx9hiujoqj
+#define MyMCHNTCDKEY @"ibmguqsu0epfqyey32gvjt22thzkvn2f"
+// 环境参数 YES: 测试环境 NO: 生产环境
+#define TestNumber  NO
+
+
+// 首页轮播图
+#define home_bannerID                  @"home_banner"
+// 立即抢购
+#define home_FastBuyingID              @"home_fastBuy"
+// 菜单
+#define home_menuID                    @"home_menu"
+// tabbar_集市按钮
+#define tabBar_supermarketID   @"tabBar_supermarket"
+// tabBar_发现按钮
+#define tabBar_findButtonID  @"tabBar_findButton"
+// 发现_普汇动态按钮
+#define discover_sfDynamicID           @"discover_sfDynamic"
+// 发现_普汇动态_点击内容
+#define discover_sfDynamic_infoID      @"discover_sfDynamic_info"
+// 发现_消息小站按钮
+#define discover_sfBeeSmallStationID   @"discover_sfBeeSmallStation"
+// 发现_消息小站_点击内容
+#define discover_sfBeeSmallStation_infoID @"discover_sfBeeSmallStation_info"
+//我的头像
+#define me_headIconID   @"me_headIcon"
+// 我的_头像点击
+#define me_iconClickID  @"me_iconClick"
+// 我的_设置
+#define me_setUpID                     @"me_setUp"
+//我的_设置_修改登录密码
+#define me_setting_setLoginPasswordID   @"me_setting_setLoginPassword"
+// 我的_设置_修改支付密码
+#define me_setting_setPayPasswordID   @"me_setting_setPayPassword"
+// 我的_设置_关于普汇
+#define me_setting_aboutMinID   @"me_setting_aboutMin"
+// 我的_设置_安全保障
+#define me_setting_guaranteeID   @"me_setting_guarantee"
+// 我的_设置_联系客服
+#define me_setting_serviceID   @"me_setting_service"
+// 我的_设置_当前版本
+#define me_setting_nowVersionID   @"me_setting_nowVersion"
+// 我的_设置_手势密码
+#define me_setting_gesturePassewordID  @"me_setting_gesturePasseword"
+// 我的_vip等级
+#define me_headPortraitID              @"me_headPortrait"
+// 我的_累计投资
+#define me_investmentPrincipalID      @"me_investmentPrincipal"
+// 我的_累计收益
+#define me_accumulatedIncomeID         @"me_accumulatedIncome"
+// 我的_可用余额_提现按钮
+#define me_availableBalance_presentID   @"me_availableBalance_present"
+// 我的_提现按钮
+#define me_availableBalanceID          @"me_availableBalance"
+// 我的_可用余额_提现记录
+#define me_availableBalance_presentRecordID @"me_availableBalance_presentRecord"
+// 我的_我的礼包
+#define me_myRedEnvelopID      @"me_myRedEnvelope"
+//  我的_我的礼包_口令礼包
+#define me_myPackage_keyExchangeID   @"me_myPackage_keyExchange"
+//  我的_礼包_红包
+#define me_myPackage_redID   @"me_myPackage_red"
+//  我的_礼包_加息券
+#define me_myPackage_rateID   @"me_myPackage_rate"
+//  我的_礼包_体验金
+#define me_myPackage_goldID   @"me_myPackage_gold"
+// 我的_投资记录
+#define me_investmentRecordID   @"me_investmentRecord"
+// 我的_普汇商城
+#define me_honeyStoreID    @"me_honeyStore"
+// 我的_交易记录
+#define me_transactionRecordID  @"me_transactionRecord"
+// 我的_邀请有礼
+#define me_getRebateInvitationID  @"me_getRebateInvitation"
+// 我的_我的银行卡
+#define me_myBankCardID    @"me_myBankCard"
+// 我的_帮助中心
+#define me_helpCenterID   @"me_helpCenter"
+// 我的_联系客服
+#define me_serviceID   @"me_service"
+// 我的_关于普汇
+#define me_aboutMinID   @"me_aboutMin"
+//  我的_投资记录_去投资
+#define me_investmentRecord_historyID   @"me_investmentRecord_history"
+// 我的_累计收益_去投资
+#define me_accumulatedIncomeHistoryRecordID @"me_accumulatedIncomeHistoryRecord"
+//我的_累计投资_去投资
+#define me_investmentPrincipal_historyRecordID  @"me_investmentPrincipal_historyRecord"
+// 优选计划-手机专享
+#define market_exclusiveMobileID       @"market_exclusiveMobile"
+//理财_优选计划
+#define mark_beePlanID @"mark_beePlan"
+//优选计划详情_立即抢购
+#define beePlan_goBuyID @"beePlan_goBuy"
+//理财_理财产品
+#define finance_productsID @"finance_products"
+//理财标的详情_立即抢购
+#define financeProduct_goBuyID @"financeProduct_goBuy"
+//理财标的详情_计算器
+#define financeProduct_computerID @"financeProduct_computer"
+//理财标的详情_项目详情
+#define financeProduct_orderID @"financeProduct_order"
+//理财标的详情_投资记录
+#define financeProduct_buyHistoryID @"financeProduct_buyHistory"
+//理财标的详情_安全承诺
+#define  financeProduct_securityID @"financeProduct_security"
+//理财_转让产品
+#define finance_transferProductID @"finance_transferProduct"
+//转让标的详情_立即抢购
+#define transferProduct_goBuyID @"transferProduct_goBuy"
+//转让标的详情_计算器
+#define transferProduct_computerID @"transferProduct_computer"
+//转让标的详情_项目详情
+#define transferProduct_orderID @"transferProduct_order"
+//转让标的详情_投资记录
+#define transferProduct_buyHistoryID @"transferProduct_buyHistory"
+//转让标的详情_安全承诺
+#define transferProduct_securityID @"transferProduct_security"
+
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+
+#endif
+#endif /* BeeEnrichmentAppiOS_prefix_pch */

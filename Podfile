@@ -1,0 +1,33 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'BeeEnrichmentAppiOS' do
+	pod 'AFNetworking', '~> 2.x'
+	pod 'CocoaSecurity'
+	pod 'SBJson', '~> 4.x'
+	pod 'FMDB'
+	pod 'zipzap'
+	pod 'SDWebImage', '~> 3.8.2'
+	pod 'PureLayout'
+	pod 'SVProgressHUD'
+	pod 'MJRefresh'
+	pod 'JSQFlatButton'
+	pod 'SAMTextView'
+	pod 'HMSegmentedControl'
+	pod 'MBProgressHUD'
+	pod 'EMString'
+	pod 'RMStore'
+	pod 'TNRadioButtonGroup'
+	pod 'TPKeyboardAvoiding'
+	pod 'REMenu'
+	pod 'LLSimpleCamera'
+	pod 'UIActionSheet+Blocks'
+	pod 'DKCircleButton'
+	pod 'SDCycleScrollView', '~> 1.65'
+	pod 'CAUMessage'
+    pod 'Meiqia'
+	pod 'CAUMessage'
+    pod 'UMengAnalytics'
+    pod 'MJExtension'
+    
+end

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="RedBagView" id="tAP-9k-yQQ" customClass="RedBagView">
+            <rect key="frame" x="0.0" y="0.0" width="166.5" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAA-jE-7dW">
+                    <rect key="frame" x="0.0" y="0.0" width="166.5" height="125"/>
+                    <state key="normal" image="vip_gitf_bag_gray"/>
+                    <state key="selected" image="vip_gitf_bag_red"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="N5T-g6-dxF">
+                    <rect key="frame" x="0.0" y="22.5" width="166.5" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="sSC-ug-YoW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="满3000元可用" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcV-0z-Q83">
+                    <rect key="frame" x="47" y="59.5" width="73" height="11"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="11" id="tzX-nI-mMj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cAA-jE-7dW" secondAttribute="bottom" id="BIL-lp-av4"/>
+                <constraint firstItem="lcV-0z-Q83" firstAttribute="centerY" secondItem="tAP-9k-yQQ" secondAttribute="centerY" multiplier="65:62.4" id="CcZ-ln-GcD"/>
+                <constraint firstItem="N5T-g6-dxF" firstAttribute="centerY" secondItem="tAP-9k-yQQ" secondAttribute="centerY" multiplier="35:62.5" id="YHj-hm-8va"/>
+                <constraint firstItem="cAA-jE-7dW" firstAttribute="leading" secondItem="tAP-9k-yQQ" secondAttribute="leading" id="dhr-T6-yev"/>
+                <constraint firstItem="cAA-jE-7dW" firstAttribute="top" secondItem="tAP-9k-yQQ" secondAttribute="top" id="ilz-C5-vOc"/>
+                <constraint firstAttribute="trailing" secondItem="N5T-g6-dxF" secondAttribute="trailing" id="jog-NH-5Tf"/>
+                <constraint firstAttribute="trailing" secondItem="cAA-jE-7dW" secondAttribute="trailing" id="jtx-O9-AY2"/>
+                <constraint firstItem="N5T-g6-dxF" firstAttribute="leading" secondItem="tAP-9k-yQQ" secondAttribute="leading" id="ozO-0o-TQT"/>
+                <constraint firstItem="lcV-0z-Q83" firstAttribute="centerX" secondItem="tAP-9k-yQQ" secondAttribute="centerX" id="qGO-MO-Aiu"/>
+                <constraint firstItem="N5T-g6-dxF" firstAttribute="centerX" secondItem="tAP-9k-yQQ" secondAttribute="centerX" id="sp5-EI-9Dn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="availableBtn" destination="cAA-jE-7dW" id="fyi-Zy-V0v"/>
+                <outlet property="conditionLabel" destination="lcV-0z-Q83" id="i99-Jw-zEN"/>
+                <outlet property="valueLabel" destination="N5T-g6-dxF" id="Nzu-rm-wB1"/>
+            </connections>
+            <point key="canvasLocation" x="8.5" y="5.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="vip_gitf_bag_gray" width="175" height="121"/>
+        <image name="vip_gitf_bag_red" width="176" height="121"/>
+    </resources>
+</document>

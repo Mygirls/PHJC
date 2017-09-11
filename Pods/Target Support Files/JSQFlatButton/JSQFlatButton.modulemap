@@ -1,0 +1,6 @@
+framework module JSQFlatButton {
+  umbrella header "JSQFlatButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

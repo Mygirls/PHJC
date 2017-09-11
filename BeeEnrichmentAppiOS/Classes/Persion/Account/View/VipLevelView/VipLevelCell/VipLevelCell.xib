@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="VipLevelCell" reuseIdentifier="VipLevelCell" id="gTV-IL-0wX" customClass="VipLevelCell">
+            <rect key="frame" x="0.0" y="0.0" width="108" height="31"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="108" height="31"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPb-6W-CJ8">
+                        <rect key="frame" x="0.0" y="0.0" width="108" height="31"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="h51-cu-Q1n">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="XRK-ix-ye1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBY-oC-mdO">
+                                <rect key="frame" x="8" y="29" width="28" height="2"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="fzy-eY-Dhj"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" restorationIdentifier="LevelSlider" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="J1D-m2-NFL" customClass="LevelSlider">
+                                <rect key="frame" x="42" y="15" width="68" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Fa8-CU-Z7z"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="0.2955010776" colorSpace="custom" customColorSpace="sRGB"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="h51-cu-Q1n" secondAttribute="bottom" id="Ikz-Vj-nlv"/>
+                            <constraint firstItem="J1D-m2-NFL" firstAttribute="leading" secondItem="h51-cu-Q1n" secondAttribute="trailing" constant="4" id="NuJ-jD-6v5"/>
+                            <constraint firstItem="OBY-oC-mdO" firstAttribute="leading" secondItem="hPb-6W-CJ8" secondAttribute="leading" constant="8" id="PN3-dq-FMo"/>
+                            <constraint firstItem="h51-cu-Q1n" firstAttribute="leading" secondItem="hPb-6W-CJ8" secondAttribute="leading" id="QIb-D4-d5E"/>
+                            <constraint firstItem="J1D-m2-NFL" firstAttribute="leading" secondItem="OBY-oC-mdO" secondAttribute="trailing" constant="8" id="Xi1-wp-CD8"/>
+                            <constraint firstItem="h51-cu-Q1n" firstAttribute="top" secondItem="hPb-6W-CJ8" secondAttribute="top" id="ccx-at-qLj"/>
+                            <constraint firstAttribute="trailing" secondItem="J1D-m2-NFL" secondAttribute="trailing" id="cex-Aw-rhy"/>
+                            <constraint firstItem="J1D-m2-NFL" firstAttribute="centerY" secondItem="h51-cu-Q1n" secondAttribute="centerY" id="u2q-Ek-GvS"/>
+                            <constraint firstAttribute="bottom" secondItem="OBY-oC-mdO" secondAttribute="bottom" id="w3V-qR-HZW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hPb-6W-CJ8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BLE-UF-H7u"/>
+                <constraint firstItem="hPb-6W-CJ8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KvR-fY-sxh"/>
+                <constraint firstAttribute="bottom" secondItem="hPb-6W-CJ8" secondAttribute="bottom" id="ogd-qf-WJk"/>
+                <constraint firstAttribute="trailing" secondItem="hPb-6W-CJ8" secondAttribute="trailing" id="vYJ-HZ-8jl"/>
+            </constraints>
+            <size key="customSize" width="108" height="31"/>
+            <connections>
+                <outlet property="bottomLine" destination="OBY-oC-mdO" id="eVy-Yr-h7K"/>
+                <outlet property="slider" destination="J1D-m2-NFL" id="cgD-XF-Uf8"/>
+                <outlet property="vipLabel" destination="h51-cu-Q1n" id="iDn-cR-GEw"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="298.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

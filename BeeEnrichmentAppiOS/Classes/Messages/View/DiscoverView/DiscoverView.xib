@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ofw-17-VIE" customClass="DiscoverView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kb0-y7-Tj3">
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96470588239999999" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="Ofw-17-VIE" id="D78-8f-kG0"/>
+                        <outlet property="delegate" destination="Ofw-17-VIE" id="wND-aD-xFg"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96470588239999999" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kb0-y7-Tj3" firstAttribute="top" secondItem="Ofw-17-VIE" secondAttribute="top" id="0Zm-lZ-gDR"/>
+                <constraint firstAttribute="trailing" secondItem="kb0-y7-Tj3" secondAttribute="trailing" id="6bl-As-oCG"/>
+                <constraint firstAttribute="bottom" secondItem="kb0-y7-Tj3" secondAttribute="bottom" id="Fc3-6M-KSs"/>
+                <constraint firstItem="kb0-y7-Tj3" firstAttribute="leading" secondItem="Ofw-17-VIE" secondAttribute="leading" id="nQu-ht-Ddr"/>
+            </constraints>
+            <connections>
+                <outlet property="tableView" destination="kb0-y7-Tj3" id="q3M-ja-WeW"/>
+            </connections>
+            <point key="canvasLocation" x="93" y="-263"/>
+        </view>
+    </objects>
+</document>

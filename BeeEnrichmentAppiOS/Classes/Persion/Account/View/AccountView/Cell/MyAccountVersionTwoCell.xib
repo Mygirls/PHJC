@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="286" id="EdW-ld-cqa" customClass="MyAccountVersionTwoCell">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="285"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EdW-ld-cqa" id="Cx6-e4-ZMx">
+                <frame key="frameInset" width="371" height="284"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z2S-Cm-Eb3">
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="4ee-HS-Ynd">
+                                <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qxq-Vm-4Y7">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="EdW-ld-cqa" id="484-eD-hFa"/>
+                                    <outlet property="delegate" destination="EdW-ld-cqa" id="QPD-fk-ep7"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yqL-iW-ldU" userLabel="下横线View">
+                                <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="S24-SC-kTK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Zp-gE-00T" userLabel="上横线View">
+                                <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="b8U-lZ-vnw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yqL-iW-ldU" firstAttribute="leading" secondItem="Z2S-Cm-Eb3" secondAttribute="leading" id="240-TU-WNx"/>
+                            <constraint firstAttribute="bottom" secondItem="4ee-HS-Ynd" secondAttribute="bottom" id="3VU-AE-Khe"/>
+                            <constraint firstAttribute="trailing" secondItem="4ee-HS-Ynd" secondAttribute="trailing" id="AsA-1a-hjj"/>
+                            <constraint firstItem="4ee-HS-Ynd" firstAttribute="top" secondItem="Z2S-Cm-Eb3" secondAttribute="top" id="Pt3-Xj-HNa"/>
+                            <constraint firstAttribute="trailing" secondItem="yqL-iW-ldU" secondAttribute="trailing" id="Q1d-Py-f1y"/>
+                            <constraint firstAttribute="bottom" secondItem="yqL-iW-ldU" secondAttribute="bottom" id="Zpg-F7-qcK"/>
+                            <constraint firstItem="4ee-HS-Ynd" firstAttribute="leading" secondItem="Z2S-Cm-Eb3" secondAttribute="leading" id="hF5-um-Kc1"/>
+                            <constraint firstItem="5Zp-gE-00T" firstAttribute="trailing" secondItem="4ee-HS-Ynd" secondAttribute="trailing" id="kF9-kB-EFp"/>
+                            <constraint firstItem="5Zp-gE-00T" firstAttribute="top" secondItem="4ee-HS-Ynd" secondAttribute="top" id="lHv-Dm-wRp"/>
+                            <constraint firstItem="5Zp-gE-00T" firstAttribute="leading" secondItem="4ee-HS-Ynd" secondAttribute="leading" id="sbJ-5b-y2T"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Z2S-Cm-Eb3" secondAttribute="trailing" id="2UI-7d-Jbv"/>
+                    <constraint firstItem="Z2S-Cm-Eb3" firstAttribute="leading" secondItem="Cx6-e4-ZMx" secondAttribute="leading" id="5fE-sm-RHA"/>
+                    <constraint firstItem="Z2S-Cm-Eb3" firstAttribute="top" secondItem="Cx6-e4-ZMx" secondAttribute="top" id="HQS-3A-ZLm"/>
+                    <constraint firstAttribute="bottom" secondItem="Z2S-Cm-Eb3" secondAttribute="bottom" id="QoQ-bw-8Uo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="backOfCollectionView" destination="Z2S-Cm-Eb3" id="YJH-ps-QWr"/>
+                <outlet property="collectionView" destination="4ee-HS-Ynd" id="KOm-am-LIW"/>
+            </connections>
+            <point key="canvasLocation" x="74.5" y="189.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="201" id="KGk-i7-Jjw" customClass="AddCardCell">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="201"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="328" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHK-jM-qXh">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="解除绑定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vW5-IU-DzP">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="Yov-nv-2OG"/>
+                                    <constraint firstAttribute="height" constant="20" id="n74-lY-2qf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.33294231660000001" blue="0.25118771010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v1_jiebang_bank" translatesAutoresizingMaskIntoConstraints="NO" id="azf-Af-4jv">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="azf-Af-4jv" secondAttribute="height" id="A2T-gY-uYj"/>
+                                    <constraint firstAttribute="height" constant="25" id="WQi-fN-Qlz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="azf-Af-4jv" firstAttribute="height" secondItem="vW5-IU-DzP" secondAttribute="height" id="Hgs-MG-cKe"/>
+                            <constraint firstItem="vW5-IU-DzP" firstAttribute="centerX" secondItem="PHK-jM-qXh" secondAttribute="centerX" constant="20" id="YKO-0H-3oZ"/>
+                            <constraint firstItem="vW5-IU-DzP" firstAttribute="centerY" secondItem="PHK-jM-qXh" secondAttribute="centerY" id="Zbp-xW-4lN"/>
+                            <constraint firstItem="azf-Af-4jv" firstAttribute="centerY" secondItem="vW5-IU-DzP" secondAttribute="centerY" id="b27-7g-URh"/>
+                            <constraint firstAttribute="height" constant="49.5" id="dud-42-K9e"/>
+                            <constraint firstItem="vW5-IU-DzP" firstAttribute="leading" secondItem="azf-Af-4jv" secondAttribute="trailing" constant="8" id="mCx-Of-YeH"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Hgs-MG-cKe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMi-U1-4TX">
+                        <state key="normal" title="联系客服">
+                            <color key="titleColor" red="0.98431372549999996" green="0.33294231660000001" blue="0.25118771010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如有疑问请拨打客服电话" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfQ-R0-gqU">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="QfQ-R0-gqU" firstAttribute="top" secondItem="PHK-jM-qXh" secondAttribute="bottom" constant="55" id="EFk-pV-HQx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PHK-jM-qXh" secondAttribute="trailing" constant="8" id="G3S-aq-31j"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="QfQ-R0-gqU" secondAttribute="trailing" id="IoJ-p3-jeO"/>
+                    <constraint firstItem="PHK-jM-qXh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="SeT-Y0-aza"/>
+                    <constraint firstItem="nMi-U1-4TX" firstAttribute="top" secondItem="QfQ-R0-gqU" secondAttribute="bottom" constant="10" id="Vej-va-cxz"/>
+                    <constraint firstItem="nMi-U1-4TX" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="bwU-zw-OL7"/>
+                    <constraint firstItem="PHK-jM-qXh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="cSb-NQ-S4k"/>
+                    <constraint firstItem="QfQ-R0-gqU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="d4a-d4-kzR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="deblockView" destination="PHK-jM-qXh" id="LIQ-9I-daU"/>
+                <outlet property="imgView" destination="azf-Af-4jv" id="3LM-Gk-3Yy"/>
+                <outlet property="phoneBtn" destination="nMi-U1-4TX" id="O0Z-RN-NMU"/>
+                <outlet property="title" destination="vW5-IU-DzP" id="pbX-6p-MME"/>
+            </connections>
+            <point key="canvasLocation" x="283" y="531.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="v1_jiebang_bank" width="23" height="23"/>
+    </resources>
+</document>

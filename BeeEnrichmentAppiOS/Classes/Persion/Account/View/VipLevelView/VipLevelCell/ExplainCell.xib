@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ExplainCell" selectionStyle="default" indentationWidth="10" id="gMD-7O-zJ8" customClass="ExplainCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gMD-7O-zJ8" id="vhc-0T-yjv">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="105.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="以上说明仅投资时使用" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgQ-Ba-BCT">
+                        <rect key="frame" x="15" y="8" width="327" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.58039215686274503" green="0.58039215686274503" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="普通会员每月可任意领取1个红包，VIP会员可领取2个，SVIP会员可领取4个。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHQ-U8-xnW">
+                        <rect key="frame" x="15" y="35" width="327" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.58039215690000001" green="0.58039215690000001" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每月1日起可领取当月红包，红包自领取日起20天内有效，每种红包最多领取一个。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofr-Ns-cz5">
+                        <rect key="frame" x="15" y="21.5" width="327" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.58039215690000001" green="0.58039215690000001" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XgQ-Ba-BCT" firstAttribute="leading" secondItem="vhc-0T-yjv" secondAttribute="leading" constant="15" id="6Ny-2x-e52"/>
+                    <constraint firstItem="XgQ-Ba-BCT" firstAttribute="top" secondItem="vhc-0T-yjv" secondAttribute="topMargin" id="EDG-el-Q8i"/>
+                    <constraint firstItem="XHQ-U8-xnW" firstAttribute="width" secondItem="XgQ-Ba-BCT" secondAttribute="width" id="FnO-s5-T7J"/>
+                    <constraint firstItem="XHQ-U8-xnW" firstAttribute="top" secondItem="Ofr-Ns-cz5" secondAttribute="bottom" id="jXm-Sc-Ox9"/>
+                    <constraint firstItem="XHQ-U8-xnW" firstAttribute="leading" secondItem="XgQ-Ba-BCT" secondAttribute="leading" id="ohb-pB-5c5"/>
+                    <constraint firstItem="Ofr-Ns-cz5" firstAttribute="top" secondItem="XgQ-Ba-BCT" secondAttribute="bottom" id="qxf-dR-D71"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XgQ-Ba-BCT" secondAttribute="trailing" constant="25" id="r86-Ng-vo1"/>
+                    <constraint firstItem="Ofr-Ns-cz5" firstAttribute="width" secondItem="XgQ-Ba-BCT" secondAttribute="width" id="w44-7Q-f5Z"/>
+                    <constraint firstItem="Ofr-Ns-cz5" firstAttribute="leading" secondItem="XgQ-Ba-BCT" secondAttribute="leading" id="z9o-Sj-Uie"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-58.5" y="84"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="SubPlanListCell" selectionStyle="default" indentationWidth="10" id="FDJ-Pm-HI5" customClass="SubPlanListCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FDJ-Pm-HI5" id="YaY-fT-Aoq">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7V-Yd-QYZ">
+                        <rect key="frame" x="307" y="0.0" width="58" height="39"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                        <state key="normal" title="查看明细">
+                            <color key="titleColor" red="0.96078431369999995" green="0.32549019610000002" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="东阳-别克昂克赛拉-抵押标" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBV-qp-kGe">
+                        <rect key="frame" x="21.5" y="0.0" width="194.5" height="40"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" red="0.22352941179999999" green="0.22352941179999999" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="S7V-Yd-QYZ" secondAttribute="trailing" constant="10" id="1za-Xe-pIC"/>
+                    <constraint firstAttribute="bottom" secondItem="JBV-qp-kGe" secondAttribute="bottom" id="7CI-Cj-sNf"/>
+                    <constraint firstAttribute="bottom" secondItem="S7V-Yd-QYZ" secondAttribute="bottom" id="LlL-Dv-idp"/>
+                    <constraint firstItem="JBV-qp-kGe" firstAttribute="leading" secondItem="YaY-fT-Aoq" secondAttribute="leading" constant="21.5" id="Sgs-py-KGt"/>
+                    <constraint firstItem="JBV-qp-kGe" firstAttribute="top" secondItem="YaY-fT-Aoq" secondAttribute="top" id="lmd-VR-4y9"/>
+                    <constraint firstItem="S7V-Yd-QYZ" firstAttribute="top" secondItem="YaY-fT-Aoq" secondAttribute="top" id="pZr-bw-xDx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkDetailBtn" destination="S7V-Yd-QYZ" id="Aq4-kQ-0zq"/>
+                <outlet property="subjectTitleLable" destination="JBV-qp-kGe" id="TGI-7K-Cov"/>
+            </connections>
+            <point key="canvasLocation" x="2.5" y="37"/>
+        </tableViewCell>
+    </objects>
+</document>

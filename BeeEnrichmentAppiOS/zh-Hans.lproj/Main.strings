@@ -1,0 +1,175 @@
+
+/* Class = "UIButton"; normalTitle = "看看其他产品"; ObjectID = "09q-zp-tcZ"; */
+"09q-zp-tcZ.normalTitle" = "看看其他产品";
+
+/* Class = "UILabel"; text = "推荐码即为您个人的手机号，当好友使用您的推荐码注册时，您将获得相应的奖励！"; ObjectID = "1ms-cK-mkO"; */
+"1ms-cK-mkO.text" = "推荐码即为您个人的手机号，当好友使用您的推荐码注册时，您将获得相应的奖励！";
+
+
+
+/* Class = "UINavigationItem"; title = "我的红包"; ObjectID = "4b3-YN-Leb"; */
+"4b3-YN-Leb.title" = "我的红包";
+
+/* Class = "UINavigationItem"; title = "昨日收益"; ObjectID = "4oD-xX-fes"; */
+"4oD-xX-fes.title" = "昨日收益";
+
+/* Class = "UINavigationItem"; title = "邀请好友"; ObjectID = "5PA-6W-2P9"; */
+"5PA-6W-2P9.title" = "邀请好友";
+
+/* Class = "UINavigationItem"; title = "密码管理"; ObjectID = "5pd-0P-L8o"; */
+"5pd-0P-L8o.title" = "密码管理";
+
+/* Class = "UITabBarItem"; title = "我"; ObjectID = "730-AD-uBW"; */
+"730-AD-uBW.title" = "账户";
+
+/* Class = "UILabel"; text = "温馨提醒：支付密码不能与登录密码一样"; ObjectID = "7cU-7s-3xA"; */
+"7cU-7s-3xA.text" = "温馨提醒：支付密码不能与登录密码一样";
+
+/* Class = "UINavigationItem"; title = "首页"; ObjectID = "8j7-A3-Lbk"; */
+"8j7-A3-Lbk.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "邀请好友"; ObjectID = "8qC-a5-xEx"; */
+"8qC-a5-xEx.normalTitle" = "邀请好友";
+
+/* Class = "UIViewController"; title = "累计收益"; ObjectID = "9Op-KC-RGu"; */
+"9Op-KC-RGu.title" = "累计收益";
+
+/* Class = "UIViewController"; title = "修改支付密码"; ObjectID = "9YL-lX-Z09"; */
+"9YL-lX-Z09.title" = "修改支付密码";
+
+/* Class = "UIViewController"; title = "设置支付密码"; ObjectID = "9sM-y4-Qcy"; */
+"9sM-y4-Qcy.title" = "设置支付密码";
+
+/* Class = "UIButton"; normalTitle = "查看产品合同"; ObjectID = "Afb-Qm-x7b"; */
+"Afb-Qm-x7b.normalTitle" = "查看产品合同";
+
+/* Class = "UIViewController"; title = "定期资产详情"; ObjectID = "CmN-UW-fVT"; */
+"CmN-UW-fVT.title" = "定期资产详情";
+
+/* Class = "UIViewController"; title = "提现记录"; ObjectID = "Czr-fD-ZLL"; */
+"Czr-fD-ZLL.title" = "提现记录";
+
+
+
+/* Class = "UITabBarItem"; title = "集市"; ObjectID = "FFi-tp-CgW"; */
+"FFi-tp-CgW.title" = "集市";
+
+/* Class = "UINavigationItem"; title = "我的理财券"; ObjectID = "FQZ-y0-blz"; */
+"FQZ-y0-blz.title" = "我的理财券";
+
+/* Class = "UILabel"; text = "您昨天还没有收益哦"; ObjectID = "JE4-1p-ecs"; */
+"JE4-1p-ecs.text" = "您昨天还没有收益哦";
+
+/* Class = "UINavigationItem"; title = "交易记录"; ObjectID = "KU7-lj-n1q"; */
+"KU7-lj-n1q.title" = "交易记录";
+
+/* Class = "UIViewController"; title = "散标列表"; ObjectID = "Lj6-Zr-9Cw"; */
+"Lj6-Zr-9Cw.title" = "散标列表";
+
+/* Class = "UIViewController"; title = "验证登录密码"; ObjectID = "MNu-bY-aIU"; */
+"MNu-bY-aIU.title" = "验证登录密码";
+
+/* Class = "UIButton"; normalTitle = "查看产品详情"; ObjectID = "NC6-2g-J0u"; */
+"NC6-2g-J0u.normalTitle" = "查看产品详情";
+
+/* Class = "UILabel"; text = "Copyright© 2017帝贷网络科技有限公司All rights reserved"; ObjectID = "NDd-vw-2ho"; */
+"NDd-vw-2ho.text" = "Copyright© 2017杭州帝贷网络科技有限公司All rights reserved";
+
+/* Class = "UINavigationItem"; title = "支付"; ObjectID = "OFl-2l-hO2"; */
+"OFl-2l-hO2.title" = "支付";
+
+/* Class = "UIViewController"; title = "修改密码"; ObjectID = "RFu-b9-BOg"; */
+"RFu-b9-BOg.title" = "修改密码";
+
+/* Class = "UINavigationItem"; title = "手势密码"; ObjectID = "TNg-Tx-dRw"; */
+"TNg-Tx-dRw.title" = "手势密码";
+
+/* Class = "UIViewController"; title = "赎回"; ObjectID = "UbN-N1-hg3"; */
+"UbN-N1-hg3.title" = "赎回";
+
+/* Class = "UIButton"; normalTitle = "赎回"; ObjectID = "Uty-6M-dCC"; */
+"Uty-6M-dCC.normalTitle" = "赎回";
+
+/* Class = "UIViewController"; title = "登录密码"; ObjectID = "V3O-iH-wqB"; */
+"V3O-iH-wqB.title" = "登录密码";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "WV0-IX-t3j"; */
+"WV0-IX-t3j.title" = "首页";
+
+/* Class = "UINavigationItem"; title = "银行卡"; ObjectID = "aK5-2R-Ybu"; */
+"aK5-2R-Ybu.title" = "银行卡";
+
+/* Class = "UILabel"; text = "温馨提醒:普汇聚财不定期举行优惠活动，发放红包。在一定期限内打开红包，对应金额将充入余额;点击查看详情"; ObjectID = "b3l-iN-Hpg"; */
+"b3l-iN-Hpg.text" = "温馨提醒:普汇聚财不定期举行优惠活动，发放红包。在一定期限内打开红包，对应金额将充入余额;点击查看详情";
+
+/* Class = "UINavigationItem"; title = "登录"; ObjectID = "c34-fl-CyV"; */
+"c34-fl-CyV.title" = "登录";
+
+/* Class = "UIViewController"; title = "理财券"; ObjectID = "c6L-qU-KuV"; */
+"c6L-qU-KuV.title" = "理财券";
+
+/* Class = "UIViewController"; title = "邀请明细"; ObjectID = "djD-k3-Ws4"; */
+"djD-k3-Ws4.title" = "邀请明细";
+
+/* Class = "UINavigationItem"; title = "注册"; ObjectID = "f05-8U-Yvq"; */
+"f05-8U-Yvq.title" = "注册";
+
+/* Class = "UINavigationItem"; title = "可用余额"; ObjectID = "fhi-zw-gJd"; */
+"fhi-zw-gJd.title" = "可用余额";
+
+/* Class = "UITabBarItem"; title = "发现"; ObjectID = "hxb-lg-oVX"; */
+"hxb-lg-oVX.title" = "发现";
+
+/* Class = "UIViewController"; title = "银行卡信息"; ObjectID = "lRP-XP-5RT"; */
+"lRP-XP-5RT.title" = "银行卡信息";
+
+/* Class = "UIBarButtonItem"; title = "我的邀请"; ObjectID = "mBk-kA-Ica"; */
+"mBk-kA-Ica.title" = "我的邀请";
+
+/* Class = "UIViewController"; title = "自动结息记录"; ObjectID = "oGj-QL-Uqs"; */
+"oGj-QL-Uqs.title" = "自动结息记录";
+
+/* Class = "UILabel"; text = "温馨提醒：支付密码不能与登录密码一样"; ObjectID = "oeA-VU-hCi"; */
+"oeA-VU-hCi.text" = "温馨提醒：支付密码不能与登录密码一样";
+
+/* Class = "UILabel"; text = "分享您的推荐码"; ObjectID = "qpQ-cX-qF7"; */
+"qpQ-cX-qF7.text" = "分享您的推荐码";
+
+/* Class = "UILabel"; text = "温馨提醒：请绑定持卡人本人的银行卡"; ObjectID = "rQ3-7f-95m"; */
+"rQ3-7f-95m.text" = "温馨提醒：请绑定持卡人本人的银行卡";
+
+/* Class = "UIViewController"; title = "聊天"; ObjectID = "rfQ-Ft-mDK"; */
+"rfQ-Ft-mDK.title" = "聊天";
+
+/* Class = "UIButton"; normalTitle = "购买"; ObjectID = "sOX-VV-ZTC"; */
+"sOX-VV-ZTC.normalTitle" = "购买";
+
+/* Class = "UINavigationItem"; title = "理财"; ObjectID = "tkW-HN-Cgu"; */
+"tkW-HN-Cgu.title" = "理财";
+
+/* Class = "UIViewController"; title = "验证用户信息"; ObjectID = "uLF-eB-OHu"; */
+"uLF-eB-OHu.title" = "验证用户信息";
+
+/* Class = "UINavigationItem"; title = "定期资产"; ObjectID = "uqK-pU-lMG"; */
+//"uqK-pU-lMG.title" = "定期资产";
+
+/* Class = "UINavigationItem"; title = "活期资产"; ObjectID = "v42-Bv-r5a"; */
+"v42-Bv-r5a.title" = "活期资产";
+
+/* Class = "UIBarButtonItem"; title = "注册"; ObjectID = "vXW-Ni-lOQ"; */
+"vXW-Ni-lOQ.title" = "注册";
+
+/* Class = "UIViewController"; title = "提现"; ObjectID = "wkL-3C-J2N"; */
+"wkL-3C-J2N.title" = "提现";
+
+/* Class = "UIViewController"; title = "密码管理"; ObjectID = "x3O-9f-Iml"; */
+"x3O-9f-Iml.title" = "密码管理";
+
+/* Class = "UILabel"; text = "温馨提醒:理财券可用于购买产品直接抵用;不可提现;点击查看详情"; ObjectID = "y2P-KW-QgW"; */
+"y2P-KW-QgW.text" = "温馨提醒:理财券可用于购买产品直接抵用;不可提现;点击查看详情";
+
+/* Class = "UINavigationItem"; title = "定期资产"; ObjectID = "yHU-EX-dxp"; */
+//"yHU-EX-dxp.title" = "定期资产";
+
+/* Class = "UILabel"; text = "温馨提醒：登录密码不能与支付密码一样"; ObjectID = "yfW-6y-JhT"; */
+"yfW-6y-JhT.text" = "温馨提醒：登录密码不能与支付密码一样";

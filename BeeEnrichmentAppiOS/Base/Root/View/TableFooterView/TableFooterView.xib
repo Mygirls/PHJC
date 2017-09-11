@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TableFooterView" id="iN0-l3-epB" customClass="TableFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个人资产由银行级别风控体系保障" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muW-Tl-hiN">
+                    <rect key="frame" x="108" y="5" width="184" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="HDJ-xc-Iaa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                    <color key="textColor" red="0.58039215686274503" green="0.58039215686274503" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v1.6.0_mine_security" translatesAutoresizingMaskIntoConstraints="NO" id="ocZ-HH-Rey">
+                    <rect key="frame" x="88" y="8.5" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="45o-V6-Xs2"/>
+                        <constraint firstAttribute="width" secondItem="ocZ-HH-Rey" secondAttribute="height" id="S90-ic-jBm"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiG-Ws-qJk">
+                    <rect key="frame" x="0.0" y="0.0" width="380" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="nPm-mM-0qm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="muW-Tl-hiN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="10" id="29z-bM-zLd"/>
+                <constraint firstAttribute="bottom" secondItem="UiG-Ws-qJk" secondAttribute="bottom" id="56t-Qx-qtR"/>
+                <constraint firstItem="muW-Tl-hiN" firstAttribute="leading" secondItem="ocZ-HH-Rey" secondAttribute="trailing" constant="5" id="EHy-Yj-ba6"/>
+                <constraint firstItem="ocZ-HH-Rey" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="IFF-nR-aQZ"/>
+                <constraint firstItem="UiG-Ws-qJk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IuG-ZM-sdT"/>
+                <constraint firstItem="muW-Tl-hiN" firstAttribute="centerY" secondItem="UiG-Ws-qJk" secondAttribute="centerY" id="bqv-p3-ulV"/>
+                <constraint firstItem="UiG-Ws-qJk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="f7D-gr-Rih"/>
+                <constraint firstAttribute="trailing" secondItem="UiG-Ws-qJk" secondAttribute="trailing" id="gHi-rP-7K1"/>
+                <constraint firstAttribute="trailing" secondItem="muW-Tl-hiN" secondAttribute="trailing" id="hxv-qp-tPf"/>
+                <constraint firstItem="UiG-Ws-qJk" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="n74-px-hNX"/>
+                <constraint firstItem="muW-Tl-hiN" firstAttribute="centerY" secondItem="ocZ-HH-Rey" secondAttribute="centerY" constant="-1" id="qP2-Co-WAp"/>
+                <constraint firstItem="muW-Tl-hiN" firstAttribute="height" secondItem="ocZ-HH-Rey" secondAttribute="height" id="z4f-45-AlP"/>
+                <constraint firstItem="UiG-Ws-qJk" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zEv-Iz-PqJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="56t-Qx-qtR"/>
+                    <exclude reference="IuG-ZM-sdT"/>
+                    <exclude reference="zEv-Iz-PqJ"/>
+                    <exclude reference="IFF-nR-aQZ"/>
+                    <exclude reference="hxv-qp-tPf"/>
+                    <exclude reference="z4f-45-AlP"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="click_footer_button" destination="UiG-Ws-qJk" id="u9d-ke-q64"/>
+                <outlet property="conTextlable" destination="muW-Tl-hiN" id="3BR-Ub-ONQ"/>
+                <outlet property="iconImageView" destination="ocZ-HH-Rey" id="fyt-GC-C2y"/>
+            </connections>
+            <point key="canvasLocation" x="157" y="125"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="v1.6.0_mine_security" width="15" height="15"/>
+    </resources>
+</document>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="146" id="KGk-i7-Jjw" customClass="Auto_Touzi_Explanation_Cell">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="314" height="145"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Exs-GR-lPU">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＊自动投标服务是一个智能投标委托代理工具。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Sc7-1T-h0h">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xyC-7b-n8f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.50889423079999996" green="0.50889423079999996" blue="0.50889423079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sc7-1T-h0h" firstAttribute="top" secondItem="Exs-GR-lPU" secondAttribute="top" constant="5" id="5XV-Ed-UGd"/>
+                            <constraint firstAttribute="trailing" secondItem="Sc7-1T-h0h" secondAttribute="trailing" constant="16" id="TO2-oh-ikk"/>
+                            <constraint firstItem="Sc7-1T-h0h" firstAttribute="leading" secondItem="Exs-GR-lPU" secondAttribute="leading" constant="16" id="WOP-Nr-GP9"/>
+                            <constraint firstAttribute="height" constant="50" id="mga-07-waO"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZeM-3u-wQ3">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您已阅读并同意我们的" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wu-jh-7Sf">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="E5r-24-tCR"/>
+                                    <constraint firstAttribute="height" constant="15" id="SWE-qc-CCb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.50889423079999996" green="0.50889423079999996" blue="0.50889423079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oi0-Nv-Fhg">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="kQR-eH-Obd"/>
+                                    <constraint firstAttribute="width" constant="100" id="o45-hh-WQ3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="《自动投标协议》">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.33294231660000001" blue="0.25118771010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＊自动投标服务是一个智能投标委托代理工具。启用自动投标服务，我们会筛选合适的标进行自动出借。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="kVH-DK-LjQ">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.50889423079999996" green="0.50889423079999996" blue="0.50889423079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oi0-Nv-Fhg" firstAttribute="height" secondItem="9wu-jh-7Sf" secondAttribute="height" id="3iD-gA-RoX"/>
+                            <constraint firstItem="oi0-Nv-Fhg" firstAttribute="centerY" secondItem="9wu-jh-7Sf" secondAttribute="centerY" id="6lG-Bl-r22"/>
+                            <constraint firstItem="oi0-Nv-Fhg" firstAttribute="leading" secondItem="9wu-jh-7Sf" secondAttribute="trailing" id="J60-D6-eUa"/>
+                            <constraint firstItem="kVH-DK-LjQ" firstAttribute="leading" secondItem="ZeM-3u-wQ3" secondAttribute="leading" constant="16" id="K8b-yH-4m9"/>
+                            <constraint firstItem="kVH-DK-LjQ" firstAttribute="width" secondItem="ZeM-3u-wQ3" secondAttribute="width" multiplier="0.89" id="MCF-dy-5Rf"/>
+                            <constraint firstItem="9wu-jh-7Sf" firstAttribute="top" secondItem="ZeM-3u-wQ3" secondAttribute="top" constant="8" id="NbJ-cP-7eq"/>
+                            <constraint firstItem="kVH-DK-LjQ" firstAttribute="centerX" secondItem="ZeM-3u-wQ3" secondAttribute="centerX" id="UjW-rI-yN2"/>
+                            <constraint firstAttribute="bottom" secondItem="kVH-DK-LjQ" secondAttribute="bottom" id="jFh-9C-Zbk"/>
+                            <constraint firstItem="9wu-jh-7Sf" firstAttribute="leading" secondItem="ZeM-3u-wQ3" secondAttribute="leading" constant="16" id="qdn-Vs-Pzx"/>
+                            <constraint firstItem="kVH-DK-LjQ" firstAttribute="top" secondItem="oi0-Nv-Fhg" secondAttribute="bottom" constant="2" id="wlT-1u-6pf"/>
+                            <constraint firstAttribute="trailing" secondItem="kVH-DK-LjQ" secondAttribute="trailing" constant="16" id="zdu-gQ-zO0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="K8b-yH-4m9"/>
+                                <exclude reference="zdu-gQ-zO0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Exs-GR-lPU" secondAttribute="trailing" constant="-8" id="36C-xX-hD6"/>
+                    <constraint firstItem="Exs-GR-lPU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="4Gk-RM-w6c"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ZeM-3u-wQ3" secondAttribute="bottom" constant="-8" id="FVA-gR-9Fi"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ZeM-3u-wQ3" secondAttribute="trailing" constant="-8" id="gV9-Gb-fa2"/>
+                    <constraint firstItem="ZeM-3u-wQ3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="pU0-yj-5tY"/>
+                    <constraint firstItem="ZeM-3u-wQ3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="ssM-LG-DUB"/>
+                    <constraint firstItem="Exs-GR-lPU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="yjO-N0-FEA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="auto_touzi_property_button" destination="oi0-Nv-Fhg" id="UM3-tf-sr7"/>
+                <outlet property="long_view" destination="ZeM-3u-wQ3" id="sDM-eB-QMe"/>
+                <outlet property="short_view" destination="Exs-GR-lPU" id="b7X-Wc-AN5"/>
+            </connections>
+            <point key="canvasLocation" x="296" y="349"/>
+        </tableViewCell>
+    </objects>
+</document>

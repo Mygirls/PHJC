@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TableHeaderView2" id="iN0-l3-epB" customClass="TableHeaderView2">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="32.5"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支付方式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="uG0-pT-ihr">
+                    <rect key="frame" x="16" y="8.5" width="100" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="1sf-QD-1Ov"/>
+                        <constraint firstAttribute="height" constant="16" id="HuB-t8-3t6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                    <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56r-wo-w6p">
+                    <rect key="frame" x="336" y="0.0" width="46" height="32.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="GNi-lw-cyE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="更多">
+                        <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Fxy-lU-fnf">
+                    <rect key="frame" x="174" y="0.0" width="200" height="32.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Bx1-TA-arc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                    <color key="textColor" red="0.58039215686274503" green="0.58039215686274503" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="56r-wo-w6p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="07p-KI-nGy"/>
+                <constraint firstItem="uG0-pT-ihr" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3li-h7-TMq"/>
+                <constraint firstItem="uG0-pT-ihr" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BON-8A-Veg"/>
+                <constraint firstAttribute="bottom" secondItem="Fxy-lU-fnf" secondAttribute="bottom" id="WvI-BO-rs0"/>
+                <constraint firstAttribute="bottom" secondItem="uG0-pT-ihr" secondAttribute="bottom" constant="5" id="YLM-c8-0NL"/>
+                <constraint firstAttribute="trailing" secondItem="56r-wo-w6p" secondAttribute="trailing" constant="8" id="dkf-dI-Uer"/>
+                <constraint firstItem="uG0-pT-ihr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="iSb-5Q-rte"/>
+                <constraint firstItem="uG0-pT-ihr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="n1W-ro-ZSs"/>
+                <constraint firstAttribute="trailing" secondItem="Fxy-lU-fnf" secondAttribute="trailing" constant="16" id="ntp-Ki-074"/>
+                <constraint firstItem="Fxy-lU-fnf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="osH-Gq-kmq"/>
+                <constraint firstAttribute="bottom" secondItem="uG0-pT-ihr" secondAttribute="bottom" id="vBN-dU-K4b"/>
+                <constraint firstAttribute="bottom" secondItem="56r-wo-w6p" secondAttribute="bottom" id="wPe-Wi-hMU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="BON-8A-Veg"/>
+                    <exclude reference="YLM-c8-0NL"/>
+                    <exclude reference="n1W-ro-ZSs"/>
+                    <exclude reference="vBN-dU-K4b"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="detail_button" destination="56r-wo-w6p" id="ymC-RP-6NH"/>
+                <outlet property="detail_label" destination="Fxy-lU-fnf" id="uCf-wu-saY"/>
+                <outlet property="title" destination="uG0-pT-ihr" id="l6a-f8-TDa"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="113"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="PrivilegeTwoCell" id="nFt-YR-KD2" customClass="PrivilegeTwoCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="普通会员:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY3-wD-LZ3">
+                    <rect key="frame" x="0.0" y="27" width="79" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="79" id="aBO-dK-bsF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIP会员:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJm-b4-dMY">
+                    <rect key="frame" x="0.0" y="98" width="79" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SVIP会员:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3B-mC-q18">
+                    <rect key="frame" x="0.0" y="169" width="79" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23s-zR-ir9">
+                    <rect key="frame" x="14" y="227" width="361" height="31"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*生日红包、升级红包、投资返红包均为普通红包，" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsP-n0-lm0">
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.58039215686274503" green="0.58039215686274503" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有效期自发放日起30日内有效." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLT-Sz-yzg">
+                            <rect key="frame" x="0.0" y="17" width="361" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.58039215690000001" green="0.58039215690000001" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="wsP-n0-lm0" firstAttribute="leading" secondItem="23s-zR-ir9" secondAttribute="leading" id="4L2-O6-R3a"/>
+                        <constraint firstAttribute="trailing" secondItem="wsP-n0-lm0" secondAttribute="trailing" id="4ky-Gg-Hxk"/>
+                        <constraint firstItem="wsP-n0-lm0" firstAttribute="top" secondItem="23s-zR-ir9" secondAttribute="top" id="7kc-zF-UBF"/>
+                        <constraint firstAttribute="trailing" secondItem="tLT-Sz-yzg" secondAttribute="trailing" id="An0-Me-Xjm"/>
+                        <constraint firstItem="tLT-Sz-yzg" firstAttribute="leading" secondItem="23s-zR-ir9" secondAttribute="leading" id="RXW-z0-aId"/>
+                        <constraint firstAttribute="height" constant="31" id="X5h-AM-paW"/>
+                        <constraint firstAttribute="bottom" secondItem="tLT-Sz-yzg" secondAttribute="bottom" id="qWN-Bb-EBK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GNT-N2-CKB">
+                    <rect key="frame" x="94" y="142" width="241" height="71"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJ9-Ld-E1e">
+                            <rect key="frame" x="10" y="15" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="ink-ot-ubZ"/>
+                                <constraint firstAttribute="width" secondItem="sJ9-Ld-E1e" secondAttribute="height" id="vYc-Fn-ow8"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="SVIP_birthday_gray"/>
+                            <state key="selected" image="SVIP_birthday_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogn-xa-BDW">
+                            <rect key="frame" x="70.5" y="15" width="40" height="40"/>
+                            <state key="normal" backgroundImage="SVIP_upgrade_gray"/>
+                            <state key="selected" image="SVIP_upgrade_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uY4-DY-ASK">
+                            <rect key="frame" x="130.5" y="15" width="40" height="40"/>
+                            <state key="normal" backgroundImage="SVIP_holiday_gray"/>
+                            <state key="selected" image="SVIP_holiday_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JU4-BM-fcf">
+                            <rect key="frame" x="191" y="15" width="40" height="40"/>
+                            <state key="normal" backgroundImage="SVIP_surprise_gray"/>
+                            <state key="selected" image="SVIP_surprise_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生日红包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Leg-SJ-Gvy">
+                            <rect key="frame" x="6" y="55" width="49.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="升级礼包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UM-AX-XA6">
+                            <rect key="frame" x="66" y="55" width="49.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="节日礼物" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZv-RA-WUI">
+                            <rect key="frame" x="126" y="55" width="49.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="惊喜礼包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7p3-d1-s3h">
+                            <rect key="frame" x="186.5" y="55" width="49.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="RZv-RA-WUI" firstAttribute="centerY" secondItem="Leg-SJ-Gvy" secondAttribute="centerY" id="3Pm-bW-Uru"/>
+                        <constraint firstItem="JU4-BM-fcf" firstAttribute="centerX" secondItem="GNT-N2-CKB" secondAttribute="centerX" multiplier="210:120" id="3g0-0e-Qhj"/>
+                        <constraint firstItem="RZv-RA-WUI" firstAttribute="height" secondItem="Leg-SJ-Gvy" secondAttribute="height" id="4MO-PG-7Zw"/>
+                        <constraint firstItem="JU4-BM-fcf" firstAttribute="centerX" secondItem="7p3-d1-s3h" secondAttribute="centerX" id="5wf-iS-gh6"/>
+                        <constraint firstItem="Ogn-xa-BDW" firstAttribute="centerY" secondItem="sJ9-Ld-E1e" secondAttribute="centerY" id="6BP-uR-t0h"/>
+                        <constraint firstItem="JU4-BM-fcf" firstAttribute="height" secondItem="sJ9-Ld-E1e" secondAttribute="height" id="6qB-W0-2Ew"/>
+                        <constraint firstAttribute="bottom" secondItem="Leg-SJ-Gvy" secondAttribute="bottom" id="8xv-3l-WIq"/>
+                        <constraint firstItem="3UM-AX-XA6" firstAttribute="centerX" secondItem="Ogn-xa-BDW" secondAttribute="centerX" id="96h-n4-y6c"/>
+                        <constraint firstItem="Ogn-xa-BDW" firstAttribute="height" secondItem="sJ9-Ld-E1e" secondAttribute="height" id="C1W-Yu-KDP"/>
+                        <constraint firstItem="JU4-BM-fcf" firstAttribute="centerY" secondItem="sJ9-Ld-E1e" secondAttribute="centerY" id="HMP-9R-TCa"/>
+                        <constraint firstItem="sJ9-Ld-E1e" firstAttribute="centerX" secondItem="GNT-N2-CKB" secondAttribute="centerX" multiplier="30:120" id="Lck-cK-8iv"/>
+                        <constraint firstItem="3UM-AX-XA6" firstAttribute="height" secondItem="Leg-SJ-Gvy" secondAttribute="height" id="Rvt-SM-RX2"/>
+                        <constraint firstItem="Ogn-xa-BDW" firstAttribute="width" secondItem="sJ9-Ld-E1e" secondAttribute="width" id="SGi-Ti-lyb"/>
+                        <constraint firstItem="uY4-DY-ASK" firstAttribute="centerY" secondItem="sJ9-Ld-E1e" secondAttribute="centerY" id="TLm-qt-16O"/>
+                        <constraint firstItem="7p3-d1-s3h" firstAttribute="centerY" secondItem="Leg-SJ-Gvy" secondAttribute="centerY" id="UyZ-kG-8k5"/>
+                        <constraint firstItem="uY4-DY-ASK" firstAttribute="height" secondItem="sJ9-Ld-E1e" secondAttribute="height" id="YGa-RS-5j5"/>
+                        <constraint firstItem="7p3-d1-s3h" firstAttribute="height" secondItem="Leg-SJ-Gvy" secondAttribute="height" id="cGr-Td-eSt"/>
+                        <constraint firstItem="Ogn-xa-BDW" firstAttribute="centerX" secondItem="GNT-N2-CKB" secondAttribute="centerX" multiplier="90:120" id="epd-aB-1P4"/>
+                        <constraint firstItem="Leg-SJ-Gvy" firstAttribute="centerX" secondItem="sJ9-Ld-E1e" secondAttribute="centerX" id="hyu-QI-LVt"/>
+                        <constraint firstItem="Leg-SJ-Gvy" firstAttribute="top" secondItem="sJ9-Ld-E1e" secondAttribute="bottom" id="l5U-2W-4em"/>
+                        <constraint firstItem="RZv-RA-WUI" firstAttribute="centerX" secondItem="uY4-DY-ASK" secondAttribute="centerX" id="niQ-Nf-fPv"/>
+                        <constraint firstItem="JU4-BM-fcf" firstAttribute="width" secondItem="sJ9-Ld-E1e" secondAttribute="width" id="o7J-hm-B4K"/>
+                        <constraint firstItem="sJ9-Ld-E1e" firstAttribute="top" secondItem="GNT-N2-CKB" secondAttribute="top" constant="15" id="ooa-aG-215"/>
+                        <constraint firstItem="3UM-AX-XA6" firstAttribute="centerY" secondItem="Leg-SJ-Gvy" secondAttribute="centerY" id="rS8-hw-T8A"/>
+                        <constraint firstItem="uY4-DY-ASK" firstAttribute="centerX" secondItem="GNT-N2-CKB" secondAttribute="centerX" multiplier="150:120" id="s1z-Nr-eoj"/>
+                        <constraint firstItem="uY4-DY-ASK" firstAttribute="width" secondItem="sJ9-Ld-E1e" secondAttribute="width" id="xWQ-W4-Uqb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9bQ-D4-nhL">
+                    <rect key="frame" x="94" y="0.0" width="241" height="71"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDj-Ul-Sxl">
+                            <rect key="frame" x="10" y="15" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="2Hb-FS-0G4"/>
+                                <constraint firstAttribute="width" secondItem="SDj-Ul-Sxl" secondAttribute="height" id="xw2-BX-9pC"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="common_birthday_gray"/>
+                            <state key="selected" image="common_birthday_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生日红包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2va-1F-eYt">
+                            <rect key="frame" x="5" y="55" width="50" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="SDj-Ul-Sxl" firstAttribute="top" secondItem="9bQ-D4-nhL" secondAttribute="top" constant="15" id="3Kh-T1-8T3"/>
+                        <constraint firstItem="2va-1F-eYt" firstAttribute="centerX" secondItem="SDj-Ul-Sxl" secondAttribute="centerX" id="VJA-aD-BLF"/>
+                        <constraint firstAttribute="bottom" secondItem="2va-1F-eYt" secondAttribute="bottom" id="iW8-Ed-KU3"/>
+                        <constraint firstItem="2va-1F-eYt" firstAttribute="top" secondItem="SDj-Ul-Sxl" secondAttribute="bottom" id="jXD-J5-2Fc"/>
+                        <constraint firstAttribute="height" constant="71" id="t5R-dO-aaX"/>
+                        <constraint firstItem="SDj-Ul-Sxl" firstAttribute="centerX" secondItem="9bQ-D4-nhL" secondAttribute="centerX" multiplier="30:120" id="uej-lm-FsK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eo4-V9-G8F">
+                    <rect key="frame" x="94" y="71" width="241" height="71"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thZ-jO-iiw">
+                            <rect key="frame" x="10" y="15" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="EM9-ne-A9H"/>
+                                <constraint firstAttribute="width" secondItem="thZ-jO-iiw" secondAttribute="height" id="Szt-8Z-P8P"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="VIP_birthday_gray"/>
+                            <state key="selected" image="VIP_birthday_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfG-7r-fw8">
+                            <rect key="frame" x="70.5" y="15" width="40" height="40"/>
+                            <state key="normal" backgroundImage="VIP_upgrade_gray"/>
+                            <state key="selected" image="VIP_upgrade_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XZ-e0-42O">
+                            <rect key="frame" x="130.5" y="15" width="40" height="40"/>
+                            <state key="normal" backgroundImage="VIP_holiday_gray"/>
+                            <state key="selected" image="VIP_holiday_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dF7-3f-7Uw">
+                            <rect key="frame" x="191" y="15" width="40" height="40"/>
+                            <state key="normal" backgroundImage="VIP_surprise_gray"/>
+                            <state key="selected" image="VIP_surprise_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生日红包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVN-B2-bKh">
+                            <rect key="frame" x="5" y="55" width="50" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="升级礼包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5I-8G-kjj">
+                            <rect key="frame" x="66" y="55.5" width="49.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="节日礼物" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bv-Bx-5mB">
+                            <rect key="frame" x="126" y="55.5" width="49.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="惊喜礼包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDI-fT-IXx">
+                            <rect key="frame" x="186.5" y="55" width="49.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="dF7-3f-7Uw" firstAttribute="height" secondItem="thZ-jO-iiw" secondAttribute="height" id="1iv-BA-ugF"/>
+                        <constraint firstItem="thZ-jO-iiw" firstAttribute="top" secondItem="eo4-V9-G8F" secondAttribute="top" constant="15" id="2cN-cG-sMS"/>
+                        <constraint firstItem="M5I-8G-kjj" firstAttribute="centerX" secondItem="xfG-7r-fw8" secondAttribute="centerX" id="3k8-cN-kzQ"/>
+                        <constraint firstItem="xfG-7r-fw8" firstAttribute="width" secondItem="thZ-jO-iiw" secondAttribute="width" id="4Nf-zS-BvN"/>
+                        <constraint firstItem="xfG-7r-fw8" firstAttribute="height" secondItem="thZ-jO-iiw" secondAttribute="height" id="7VB-VP-nNP"/>
+                        <constraint firstItem="2bv-Bx-5mB" firstAttribute="centerY" secondItem="SVN-B2-bKh" secondAttribute="centerY" id="7gt-7u-bpg"/>
+                        <constraint firstItem="SVN-B2-bKh" firstAttribute="top" secondItem="thZ-jO-iiw" secondAttribute="bottom" id="DWN-dM-79d"/>
+                        <constraint firstItem="2bv-Bx-5mB" firstAttribute="height" secondItem="SVN-B2-bKh" secondAttribute="height" id="Enm-CU-lTG"/>
+                        <constraint firstItem="yDI-fT-IXx" firstAttribute="height" secondItem="SVN-B2-bKh" secondAttribute="height" id="H5c-yR-UQP"/>
+                        <constraint firstItem="1XZ-e0-42O" firstAttribute="height" secondItem="thZ-jO-iiw" secondAttribute="height" id="HSH-Td-boQ"/>
+                        <constraint firstItem="thZ-jO-iiw" firstAttribute="centerX" secondItem="eo4-V9-G8F" secondAttribute="centerX" multiplier="30:120" id="KJM-sh-VRF"/>
+                        <constraint firstItem="M5I-8G-kjj" firstAttribute="height" secondItem="SVN-B2-bKh" secondAttribute="height" id="O39-dq-GsY"/>
+                        <constraint firstItem="1XZ-e0-42O" firstAttribute="width" secondItem="thZ-jO-iiw" secondAttribute="width" id="PXZ-wp-VTT"/>
+                        <constraint firstAttribute="bottom" secondItem="SVN-B2-bKh" secondAttribute="bottom" id="Qb8-8f-2mK"/>
+                        <constraint firstItem="xfG-7r-fw8" firstAttribute="centerY" secondItem="thZ-jO-iiw" secondAttribute="centerY" id="Xny-ue-hQ8"/>
+                        <constraint firstItem="2bv-Bx-5mB" firstAttribute="centerX" secondItem="1XZ-e0-42O" secondAttribute="centerX" id="Z02-Vh-SwW"/>
+                        <constraint firstItem="1XZ-e0-42O" firstAttribute="centerY" secondItem="thZ-jO-iiw" secondAttribute="centerY" id="a1D-hZ-K0Z"/>
+                        <constraint firstItem="dF7-3f-7Uw" firstAttribute="centerX" secondItem="eo4-V9-G8F" secondAttribute="centerX" multiplier="210:120" id="bA6-Vu-PHs"/>
+                        <constraint firstItem="1XZ-e0-42O" firstAttribute="centerX" secondItem="eo4-V9-G8F" secondAttribute="centerX" multiplier="150:120" id="bOE-ov-Yeb"/>
+                        <constraint firstItem="SVN-B2-bKh" firstAttribute="centerX" secondItem="thZ-jO-iiw" secondAttribute="centerX" id="bl7-la-Zre"/>
+                        <constraint firstItem="yDI-fT-IXx" firstAttribute="centerX" secondItem="dF7-3f-7Uw" secondAttribute="centerX" id="cty-aQ-DYD"/>
+                        <constraint firstItem="yDI-fT-IXx" firstAttribute="centerY" secondItem="SVN-B2-bKh" secondAttribute="centerY" id="dBK-CN-ElS"/>
+                        <constraint firstItem="M5I-8G-kjj" firstAttribute="centerY" secondItem="SVN-B2-bKh" secondAttribute="centerY" id="dv2-eT-KDZ"/>
+                        <constraint firstItem="dF7-3f-7Uw" firstAttribute="width" secondItem="thZ-jO-iiw" secondAttribute="width" id="mbo-2x-Z0E"/>
+                        <constraint firstItem="xfG-7r-fw8" firstAttribute="centerX" secondItem="eo4-V9-G8F" secondAttribute="centerX" multiplier="90:120" id="ukK-9Q-h3P"/>
+                        <constraint firstItem="dF7-3f-7Uw" firstAttribute="centerY" secondItem="thZ-jO-iiw" secondAttribute="centerY" id="vp7-Wd-gf3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="g3B-mC-q18" firstAttribute="top" secondItem="OJm-b4-dMY" secondAttribute="bottom" constant="53" id="7y0-ER-Sst"/>
+                <constraint firstItem="OJm-b4-dMY" firstAttribute="top" secondItem="SY3-wD-LZ3" secondAttribute="bottom" constant="53" id="A7f-hE-M9R"/>
+                <constraint firstItem="SY3-wD-LZ3" firstAttribute="top" secondItem="nFt-YR-KD2" secondAttribute="top" constant="27" id="BXY-wH-qAx"/>
+                <constraint firstItem="23s-zR-ir9" firstAttribute="leading" secondItem="nFt-YR-KD2" secondAttribute="leading" constant="14" id="CPn-kK-0er"/>
+                <constraint firstItem="23s-zR-ir9" firstAttribute="top" secondItem="GNT-N2-CKB" secondAttribute="bottom" constant="14" id="Cek-yC-RhA"/>
+                <constraint firstItem="9bQ-D4-nhL" firstAttribute="width" secondItem="nFt-YR-KD2" secondAttribute="width" multiplier="241:375" id="I5P-52-ov0"/>
+                <constraint firstItem="GNT-N2-CKB" firstAttribute="height" secondItem="9bQ-D4-nhL" secondAttribute="height" id="J9a-d2-fsm"/>
+                <constraint firstItem="eo4-V9-G8F" firstAttribute="leading" secondItem="9bQ-D4-nhL" secondAttribute="leading" id="K5a-lz-5Gl"/>
+                <constraint firstItem="eo4-V9-G8F" firstAttribute="top" secondItem="9bQ-D4-nhL" secondAttribute="bottom" id="LZj-G7-sY7"/>
+                <constraint firstItem="GNT-N2-CKB" firstAttribute="width" secondItem="9bQ-D4-nhL" secondAttribute="width" id="Lvj-aG-bML"/>
+                <constraint firstItem="OJm-b4-dMY" firstAttribute="width" secondItem="SY3-wD-LZ3" secondAttribute="width" id="OSm-MM-96l"/>
+                <constraint firstItem="9bQ-D4-nhL" firstAttribute="top" secondItem="nFt-YR-KD2" secondAttribute="top" id="RRm-Bi-5Rh"/>
+                <constraint firstAttribute="trailing" secondItem="23s-zR-ir9" secondAttribute="trailing" id="Ups-vh-xzG"/>
+                <constraint firstItem="g3B-mC-q18" firstAttribute="width" secondItem="SY3-wD-LZ3" secondAttribute="width" id="Z0e-FH-VbL"/>
+                <constraint firstItem="SY3-wD-LZ3" firstAttribute="leading" secondItem="nFt-YR-KD2" secondAttribute="leading" id="ek8-iH-u8h"/>
+                <constraint firstItem="GNT-N2-CKB" firstAttribute="leading" secondItem="9bQ-D4-nhL" secondAttribute="leading" id="fdL-rr-0bz"/>
+                <constraint firstItem="eo4-V9-G8F" firstAttribute="height" secondItem="9bQ-D4-nhL" secondAttribute="height" id="gYl-cG-nFY"/>
+                <constraint firstItem="eo4-V9-G8F" firstAttribute="width" secondItem="9bQ-D4-nhL" secondAttribute="width" id="ljW-aK-Ny4"/>
+                <constraint firstItem="GNT-N2-CKB" firstAttribute="top" secondItem="eo4-V9-G8F" secondAttribute="bottom" id="oib-Jb-eAX"/>
+                <constraint firstItem="g3B-mC-q18" firstAttribute="leading" secondItem="SY3-wD-LZ3" secondAttribute="leading" id="p8t-Dh-hHv"/>
+                <constraint firstItem="OJm-b4-dMY" firstAttribute="leading" secondItem="SY3-wD-LZ3" secondAttribute="leading" id="sGe-wT-Dqa"/>
+                <constraint firstItem="9bQ-D4-nhL" firstAttribute="leading" secondItem="SY3-wD-LZ3" secondAttribute="trailing" constant="15" id="wFo-47-F0M"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commonBirthdayBtn" destination="SDj-Ul-Sxl" id="id5-8W-mgA"/>
+                <outlet property="svipBirthdayBtn" destination="sJ9-Ld-E1e" id="I0X-pw-cKE"/>
+                <outlet property="svipHolidayBtn" destination="uY4-DY-ASK" id="wKj-RE-jOc"/>
+                <outlet property="svipSurpriseBtn" destination="JU4-BM-fcf" id="U67-bS-4VC"/>
+                <outlet property="svipUpgradeBtn" destination="Ogn-xa-BDW" id="YEc-iS-xGd"/>
+                <outlet property="vipBirthdayBtn" destination="thZ-jO-iiw" id="nII-7A-i6Q"/>
+                <outlet property="vipHolidayBtn" destination="1XZ-e0-42O" id="Pvt-mz-S5A"/>
+                <outlet property="vipSurpriseBtn" destination="dF7-3f-7Uw" id="hiF-Mp-t3L"/>
+                <outlet property="vipUpgradeBtn" destination="xfG-7r-fw8" id="S5d-eo-acR"/>
+            </connections>
+            <point key="canvasLocation" x="-2.5" y="-185"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SVIP_birthday_gray" width="40" height="40"/>
+        <image name="SVIP_birthday_red" width="40" height="40"/>
+        <image name="SVIP_holiday_gray" width="40" height="40"/>
+        <image name="SVIP_holiday_red" width="40" height="40"/>
+        <image name="SVIP_surprise_gray" width="40" height="40"/>
+        <image name="SVIP_surprise_red" width="40" height="40"/>
+        <image name="SVIP_upgrade_gray" width="40" height="40"/>
+        <image name="SVIP_upgrade_red" width="40" height="40"/>
+        <image name="VIP_birthday_gray" width="40" height="40"/>
+        <image name="VIP_birthday_red" width="40" height="40"/>
+        <image name="VIP_holiday_gray" width="40" height="40"/>
+        <image name="VIP_holiday_red" width="40" height="40"/>
+        <image name="VIP_surprise_gray" width="40" height="40"/>
+        <image name="VIP_surprise_red" width="40" height="40"/>
+        <image name="VIP_upgrade_gray" width="40" height="40"/>
+        <image name="VIP_upgrade_red" width="40" height="40"/>
+        <image name="common_birthday_gray" width="40" height="40"/>
+        <image name="common_birthday_red" width="40" height="40"/>
+    </resources>
+</document>
